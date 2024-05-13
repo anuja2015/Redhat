@@ -1,6 +1,7 @@
 # Lab:1 Developing Playbooks with Ansible Automation Platform
 
 Remote Git Repository: https://git.lab.example.com/student/develop-review.git.
+Automation Hub: hub.lab.example.com
 
 Instructions
 
