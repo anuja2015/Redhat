@@ -1,4 +1,4 @@
-# Lab:2 
+# Lab:2 Managing Content Collections and Execution Environments
 
 Instructions
 1. Change into the /home/student/manage-review/ directory and review the cockpit.yml playbook. Make note of the Ansible Content Collections that the playbook requires.
