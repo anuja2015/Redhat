@@ -33,3 +33,31 @@
 - The component of Ansible Automation Platform that provides a central point of control to run the enterprise automation code.
 - It provides a web UI and a REST API that can be used to configure, run, and evaluate your automation jobs
 
+### Automation Hub
+
+- public service at console.redhat.com provides access to Red Hat Ansible Certified Content Collections that can be downloaded and used with ansible-galaxy (for ansible-navigator) and with automation controller.
+- private automation hub enables  to create our own curated set of Ansible Content Collections
+
+## Install ansible-navigator
+
+1. Register the system using Redhat subscription manager
+
+       subscription-manager register
+   
+2. Enable RedHat Ansible Automation Platform 2
+
+        subscription-manager repos --enable ansible-automation-platform-2.2-for-rhel-8-x86_64-rpm
+
+3. Install ansible-navigator
+
+       yum install ansible-navigator
+
+## Automation execution environment
+
+- When running ansible-navigator use __--execution-environment-image (--eei)__ option to select a specific container image to use as the automation execution
+- By default ee-supported-rhel8:latest is the execution environment.
+- __--pull-policy (--pp)__ option  controls how ansible-navigator pulls container images.
+- When the value of --pp option is set to __missing__, automation content navigator only pulls the container image if the image does not exist on the local system.
+
+
+
