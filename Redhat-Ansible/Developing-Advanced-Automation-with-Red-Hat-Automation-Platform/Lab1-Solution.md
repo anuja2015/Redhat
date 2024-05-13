@@ -31,3 +31,9 @@
 
 6. Push all of your changes to the exercise branch of the remote Git repository.
 
+![image](https://github.com/anuja2015/Redhat/assets/16287330/42dbc7dc-d3db-4537-8410-9fbdb59c97b2)
+
+![image](https://github.com/anuja2015/Redhat/assets/16287330/43beec0e-5229-4d3f-ad68-3f0fa99d9630)
+
+
+
