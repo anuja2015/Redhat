@@ -8,8 +8,9 @@ branch. In the ~/git-repos/inventory-review/ directory, review the inventory fil
    Create another directory for the b_web_servers host group. It should also contain a variable file called webapp.yml. That second variable file must set the value of the webapp_version variable to v1.1b.
 
 3. Using automation content navigator, run the deploy_webapp.yml playbook to update the version information displayed by the web application. Use the curl command to confirm that requests for web pages sent to servera produce two different versions of the web application.
+Commit the files that you have created to your local Git repository.
 
-4. Create a YAML-formatted inventory file called inventory.yml using the data from the INI-formatted inventory file. If you generate the inventory.yml file using the ansible-navigator command, then remove the variables that are added for each host. Do not remove the original inventory file.
+4. Create a YAML-formatted inventory file called inventory.yml usin the data from the INI-formatted inventory file. If you generate the inventory.yml file using the ansible-navigator command, then remove the variables that are added for each host. Do not remove the original inventory file.
 Run the site.yml playbook using the new inventory.yml file.
 
 5. You have decided to change your YAML inventory to use inventory hostnames that are mapped to their purposes, rather than using actual hostnames. Modify the inventory.yml file as follows:
