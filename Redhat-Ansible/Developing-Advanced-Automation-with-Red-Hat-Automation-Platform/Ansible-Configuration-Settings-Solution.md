@@ -1,10 +1,12 @@
 1. Change to the /home/student/config-review directory for your Ansible project and configure the automation content navigator settings file to use the hub.lab.example.com/ee-supported-rhel8:latest image by default, and set the pull policy to missing.
 
-![image](https://github.com/anuja2015/Redhat/assets/16287330/f76dc6cc-5a0f-4bea-90ff-a07d423cdfde)
+![image](https://github.com/anuja2015/Redhat/assets/16287330/98315b65-5763-4854-a57c-72111378cf3d)
+
 
 2. Because the install-web.yml playbook requires prompting for the privilege escalation password, you must disable creating playbook artifacts. Configure the automation content navigator settings file to disable creating playbook artifacts.
 
-![image](https://github.com/anuja2015/Redhat/assets/16287330/20696d84-bc69-41d6-ad05-c6d0b9cfc52a)
+![image](https://github.com/anuja2015/Redhat/assets/16287330/9b8c4d51-9084-4442-ab4a-37c98bb2bcc1)
+
 
 3. Use automation content navigator to determine how to specify the maximum number of forks Ansible uses to execute tasks on target hosts. Identify the name of the variable and to which section the variable belongs. Modify the ~/config-review/ansible.cfg Ansible configuration file to set the maximum number of forks to 15. Use automation content navigator to verify the changes.
           ansible-navigator config
