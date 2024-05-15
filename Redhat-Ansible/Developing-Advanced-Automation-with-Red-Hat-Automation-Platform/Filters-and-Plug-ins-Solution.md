@@ -3,9 +3,9 @@
 ![image](https://github.com/anuja2015/Redhat/assets/16287330/43f84bc5-fb44-4426-881a-5ac38d6e7af5)
 
 2. Examine the firewall role in the ~/git-repos/data-review project directory. The tasks file, roles/firewall/tasks/main.yml, contains three tasks that use the firewalld module to configure firewall rules defined by the firewall_rules variable. Edit the tasks file so that it uses filters to set default values for variables in each of the three tasks if they are not set, as follows:
-• For the state option, if item['state'] is not set, then set it to enabled by default.
-• For the zone option, if item['zone'] is not set, then omit the zone option.
-• In the "Ensure Firewall Port Configuration" task, in the port option to the firewalld module, if item['protocol'] is not set then set it to tcp. Also use the lower filter to ensure that the value of the item['protocol'] option is in lowercase.
+- For the state option, if item['state'] is not set, then set it to enabled by default.
+- For the zone option, if item['zone'] is not set, then omit the zone option.
+- In the "Ensure Firewall Port Configuration" task, in the port option to the firewalld module, if item['protocol'] is not set then set it to tcp. Also use the lower filter to ensure that the value of the item['protocol'] option is in lowercase.
 
 ![image](https://github.com/anuja2015/Redhat/assets/16287330/3b14a77a-9d28-4a9c-a896-d0f64ba2f09f)
 
