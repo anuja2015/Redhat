@@ -30,8 +30,7 @@ process. Add the lab environment's TLS CA certificate to the container image. Th
 
 6. Build the automation execution environment container image and use hub.lab.example.com/review/ee-training-rhel8:v1.0 as the tag. Push the container image to the hub.lab.example.com container registry
 
-7. Use the automation controller web UI to create an execution environment resource that uses
-the following settings:
+7. Use the automation controller web UI to create an execution environment resource that uses the following settings:
 
 ![image](https://github.com/anuja2015/Redhat/assets/16287330/b9ad5876-29e2-47fc-bcd2-3d2f42d67601)
 
